@@ -12,7 +12,8 @@ fs.readdirSync(modulesDir).forEach(dir => {
   const fullPath = path.resolve(modulesDir, dir, 'index.ts');
   if (fs.existsSync(fullPath)) {
     input[dir] = fullPath;
-  }
+  }![Uploading Snipaste_2024-10-05_01-10-14.png…]()
+
 });
 
 export default defineConfig({
